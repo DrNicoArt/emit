@@ -1,62 +1,71 @@
-# Aplikacja Czasowa
+Time Application
+An interactive visualization of various time systems presented as concentric circles.
 
-Interaktywna wizualizacja różnych systemów czasowych przedstawionych jako koncentryczne okręgi.
+Project Description
+Time Application is a tool for visualizing different time measurement systems in one coherent interface. The individual time systems are presented as concentric circles, which allows for simultaneous comparison and observation of different ways humanity perceives and measures time.
 
-## Opis Projektu
+Time Systems
+The application includes the following time systems:
 
-Aplikacja Czasowa to narzędzie do wizualizacji różnych systemów mierzenia czasu w jednym spójnym interfejsie. Poszczególne systemy czasowe są przedstawione jako koncentryczne okręgi, co pozwala na jednoczesne porównanie i obserwację różnych sposobów postrzegania i mierzenia czasu przez ludzkość.
+Local Time - a classic analog clock displaying the current local time
 
-### Systemy czasowe
+Hebrew Calendar - a traditional Hebrew calendar with months and days
 
-Aplikacja zawiera następujące systemy czasowe:
+Atomic Time - precise time retrieved from NTP servers
 
-1. **Czas Lokalny** - klasyczny zegar analogowy pokazujący aktualny czas lokalny
-2. **Kalendarz Hebrajski** - tradycyjny kalendarz hebrajski z miesiącami i dniami
-3. **Czas Atomowy** - precyzyjny czas pobrany z serwerów NTP
-4. **Czas Pulsarowy** - symulacja pulsarów jako naturalnych zegarów kosmicznych
-5. **Obrót Ziemi** - wizualizacja obrotu Ziemi z podziałem na dzień i noc
-6. **Rok Astronomiczny** - ruch Ziemi wokół Słońca z oznaczeniami pór roku i znaków zodiaku
+Pulsar Time - a simulation of pulsars as natural cosmic clocks
 
-## Instalacja i uruchomienie
+Earth’s Rotation - a visualization of the Earth’s rotation with day and night division
 
-### Wymagania systemowe
+Astronomical Year - the Earth’s orbit around the Sun with indications of seasons and zodiac signs
 
-- Python 3.8 lub nowszy
-- PyQt5
-- Dodatkowe biblioteki: numpy, pytz, ntplib
+Installation and Execution
+System Requirements
+Python 3.8 or newer
 
-### Instrukcja instalacji
+PyQt5
 
-1. Rozpakuj archiwum do wybranego katalogu
-2. Otwórz terminal/konsolę i przejdź do rozpakowanego katalogu
-3. Zainstaluj wymagane zależności:
+Additional libraries: numpy, pytz, ntplib
 
-```bash
+Installation Instructions
+Unpack the archive to a chosen directory
+
+Open a terminal/console and navigate to the unpacked directory
+
+Install the required dependencies:
+
+bash
+Kopiuj
+Edytuj
 pip install PyQt5 numpy pytz ntplib
-```
+Run the application:
 
-4. Uruchom aplikację:
-
-```bash
+bash
+Kopiuj
+Edytuj
 python main.py
-```
+Using the Application
+After launching the application, you will see the main window displaying the time systems as concentric circles. You can:
 
-## Używanie aplikacji
+Pan and zoom the view using the mouse
 
-Po uruchomieniu aplikacji zobaczysz główne okno z wizualizacją systemów czasowych jako koncentryczne okręgi. Możesz:
+Click on individual elements to obtain more information
 
-- Przesuwać i powiększać widok za pomocą myszki
-- Klikać na poszczególne elementy, aby uzyskać więcej informacji
-- Konfigurować różne opcje wyświetlania przez menu i pasek narzędzi
-- Zmieniać strefy czasowe i inne ustawienia
+Configure various display options through the menu and toolbar
 
-## Struktura kodu
+Change time zones and other settings
 
-Kod projektu jest zorganizowany w następujący sposób:
+Code Structure
+The project code is organized as follows:
 
-- `main.py` - główny plik uruchamiający aplikację
-- `ui_mainwindow.py` - definicja głównego okna aplikacji
-- `style.qss` - arkusz stylów dla interfejsu użytkownika
-- `systemy_czasowe/` - katalog z modułami różnych systemów czasowych
-- `widgets/` - katalog z niestandardowymi widgetami i komponentami
-- `resources/` - katalog z zasobami (ikony, obrazy, itp.)
+main.py - the main file that starts the application
+
+ui_mainwindow.py - definition of the main application window
+
+style.qss - stylesheet for the user interface
+
+systemy_czasowe/ - directory with modules of various time systems
+
+widgets/ - directory with custom widgets and components
+
+resources/ - directory with resources (icons, images, etc.)
