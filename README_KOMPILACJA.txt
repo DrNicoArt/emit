@@ -1,0 +1,1 @@
+W folderze dist znajdziesz plik .exe
