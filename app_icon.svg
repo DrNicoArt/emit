@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Tło zegara -->
+  <circle cx="24" cy="24" r="22" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+  
+  <!-- Wewnętrzne koło z efektem gradientu -->
+  <circle cx="24" cy="24" r="18" fill="#2980b9"/>
+  
+  <!-- Oznaczenia godzin -->
+  <line x1="24" y1="7" x2="24" y2="9" stroke="#ecf0f1" stroke-width="2" />
+  <line x1="24" y1="39" x2="24" y2="41" stroke="#ecf0f1" stroke-width="2" />
+  <line x1="7" y1="24" x2="9" y2="24" stroke="#ecf0f1" stroke-width="2" />
+  <line x1="39" y1="24" x2="41" y2="24" stroke="#ecf0f1" stroke-width="2" />
+  
+  <!-- Oznaczenia kwadransów -->
+  <line x1="13" y1="13" x2="15" y2="15" stroke="#ecf0f1" stroke-width="1.5" />
+  <line x1="13" y1="35" x2="15" y2="33" stroke="#ecf0f1" stroke-width="1.5" />
+  <line x1="35" y1="13" x2="33" y2="15" stroke="#ecf0f1" stroke-width="1.5" />
+  <line x1="35" y1="35" x2="33" y2="33" stroke="#ecf0f1" stroke-width="1.5" />
+  
+  <!-- Wskazówki zegara -->
+  <line x1="24" y1="24" x2="24" y2="13" stroke="#ecf0f1" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="24" x2="31" y2="27" stroke="#ecf0f1" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Środek zegara -->
+  <circle cx="24" cy="24" r="2" fill="#ecf0f1" stroke="#2980b9" stroke-width="1"/>
+  
+  <!-- Otaczające okręgi symbolizujące systemy czasowe -->
+  <circle cx="24" cy="24" r="22" fill="none" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#f39c12" stroke-width="1" stroke-dasharray="3,1"/>
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#27ae60" stroke-width="1" stroke-dasharray="1,1"/>
+</svg>
