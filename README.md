@@ -34,15 +34,11 @@ Open a terminal/console and navigate to the unpacked directory
 
 Install the required dependencies:
 
-bash
-Kopiuj
-Edytuj
+
 pip install PyQt5 numpy pytz ntplib
+
 Run the application:
 
-bash
-Kopiuj
-Edytuj
 python main.py
 Using the Application
 After launching the application, you will see the main window displaying the time systems as concentric circles. You can:
