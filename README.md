@@ -5,7 +5,7 @@ Project Description
 Time Application is a tool for visualizing different time measurement systems in one coherent interface. The individual time systems are presented as concentric circles, which allows for simultaneous comparison and observation of different ways humanity perceives and measures time.
 
 How it looks:
-https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7317317953769693184?compact=1" height="399" width="504"
+https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7317317953769693184?compact=1"
 
 Time Systems
 The application includes the following time systems:
